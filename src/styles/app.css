@@ -792,9 +792,6 @@
 .css-1wr11k6 {
   margin: 2px 0;
 }
-.css-1f79j9i {
-  padding: 48px 0 40px;
-}
 
 @media (min-width: 768px) {
   .css-1f79j9i {
@@ -821,7 +818,7 @@
 .css-e34m0p {
   text-align: center;
   width: 100%;
-  padding: 8px;
+  padding: 8px 50px;
   border-bottom: 1px solid rgba(17, 17, 17, 45%);
 }
 
@@ -1484,26 +1481,6 @@ only screen and (max-width:767px) {
   line-height: 65px;
   width: 100%;
   z-index: 1
-}
-
-#survicate-box .sv__smiley-scale .sv__very-sad {
-  background-image: url(https://surveys-static.survicate.com/images/angry-face.png)
-}
-
-#survicate-box .sv__smiley-scale .sv__sad {
-  background-image: url(https://surveys-static.survicate.com/images/slightly-frowning-face.png)
-}
-
-#survicate-box .sv__smiley-scale .sv__neutral {
-  background-image: url(https://surveys-static.survicate.com/images/neutral-face.png)
-}
-
-#survicate-box .sv__smiley-scale .sv__happy {
-  background-image: url(https://surveys-static.survicate.com/images/slightly-smiling-face.png)
-}
-
-#survicate-box .sv__smiley-scale .sv__very-happy {
-  background-image: url(https://surveys-static.survicate.com/images/star-struck.png)
 }
 
 #survicate-box .sv__buttons {

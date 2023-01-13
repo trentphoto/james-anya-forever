@@ -2,6 +2,7 @@ import Link from 'next/link';
 import * as React from 'react';
 
 import Layout from '@/components/layout/Layout';
+import NextImage from '@/components/NextImage';
 import Seo from '@/components/Seo';
 
 export default function HomePage() {
@@ -13,44 +14,8 @@ export default function HomePage() {
           <div className="css-1oteowz">
             <div className="css-1c9a4c6"></div>
             <div className="css-1abgt8j">
-              <div className="css-xdcd7r"></div>
-              <div className="css-mf7073"></div>
-              <div className="css-1s8bb19">
-                <picture className="css-1ago99h">
-                  <source
-                    media="(min-resolution: 192dpi) and (min-width: 1280px),(-webkit-min-device-pixel-ratio: 2) and (min-width: 1280px)"
-                    srcSet="//www.theknot.com/tk-media/images/d1cb9965-a84d-4b04-8afe-b82e19524743~rt_auto-cr_0.282.909.736-rs_2560.h?ordering=explicit" />
-                  <source
-                    media="(min-resolution: 192dpi) and (min-width: 1024px),(-webkit-min-device-pixel-ratio: 2) and (min-width: 1024px)"
-                    srcSet="//www.theknot.com/tk-media/images/d1cb9965-a84d-4b04-8afe-b82e19524743~rt_auto-cr_0.282.909.736-rs_2048.h?ordering=explicit" />
-                  <source
-                    media="(min-resolution: 192dpi) and (min-width: 768px),(-webkit-min-device-pixel-ratio: 2) and (min-width: 768px)"
-                    srcSet="//www.theknot.com/tk-media/images/d1cb9965-a84d-4b04-8afe-b82e19524743~rt_auto-cr_0.282.909.736-rs_1536.h?ordering=explicit" />
-                  <source media="(min-resolution: 192dpi), (-webkit-min-device-pixel-ratio: 2)"
-                    srcSet="//www.theknot.com/tk-media/images/d1cb9965-a84d-4b04-8afe-b82e19524743~rt_auto-cr_0.282.909.736-rs_960.h?ordering=explicit" />
-                  <source
-                    media="(min-resolution: 144dpi) and (min-width: 1280px),(-webkit-min-device-pixel-ratio: 1.5) and (min-width: 1280px)"
-                    srcSet="//www.theknot.com/tk-media/images/d1cb9965-a84d-4b04-8afe-b82e19524743~rt_auto-cr_0.282.909.736-rs_1920.h?ordering=explicit" />
-                  <source
-                    media="(min-resolution: 144dpi) and (min-width: 1024px),(-webkit-min-device-pixel-ratio: 1.5) and (min-width: 1024px)"
-                    srcSet="//www.theknot.com/tk-media/images/d1cb9965-a84d-4b04-8afe-b82e19524743~rt_auto-cr_0.282.909.736-rs_1536.h?ordering=explicit" />
-                  <source
-                    media="(min-resolution: 144dpi) and (min-width: 768px),(-webkit-min-device-pixel-ratio: 1.5) and (min-width: 768px)"
-                    srcSet="//www.theknot.com/tk-media/images/d1cb9965-a84d-4b04-8afe-b82e19524743~rt_auto-cr_0.282.909.736-rs_1152.h?ordering=explicit" />
-                  <source media="(min-resolution: 144dpi), (-webkit-min-device-pixel-ratio: 1.5)"
-                    srcSet="//www.theknot.com/tk-media/images/d1cb9965-a84d-4b04-8afe-b82e19524743~rt_auto-cr_0.282.909.736-rs_720.h?ordering=explicit" />
-                  <source media="(min-width: 1280px)"
-                    srcSet="//www.theknot.com/tk-media/images/d1cb9965-a84d-4b04-8afe-b82e19524743~rt_auto-cr_0.282.909.736-rs_1280.h?ordering=explicit" />
-                  <source media="(min-width: 1024px)"
-                    srcSet="//www.theknot.com/tk-media/images/d1cb9965-a84d-4b04-8afe-b82e19524743~rt_auto-cr_0.282.909.736-rs_1024.h?ordering=explicit" />
-                  <source media="(min-width: 768px)"
-                    srcSet="//www.theknot.com/tk-media/images/d1cb9965-a84d-4b04-8afe-b82e19524743~rt_auto-cr_0.282.909.736-rs_768.h?ordering=explicit" />
-                  <source
-                    srcSet="//www.theknot.com/tk-media/images/d1cb9965-a84d-4b04-8afe-b82e19524743~rt_auto-cr_0.282.909.736-rs_480.h?ordering=explicit" />
-                  <img loading="eager" alt="James &amp; Anya Home Page Banner" width="909" height="454"
-                    src="//www.theknot.com/tk-media/images/d1cb9965-a84d-4b04-8afe-b82e19524743~rt_auto-cr_0.282.909.736-rs_768.h?ordering=explicit"
-                    className="css-1ago99h" />
-                </picture>
+              <div className="container mx-auto max-w-6xl mt-8">
+                <NextImage src="/images/cover.jpeg" alt="James + Anya" width={1200} height={800} className="w-full" />
               </div>
               <div className="css-iex2id">
                 <div className="css-1x008t6">
