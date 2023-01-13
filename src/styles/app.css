@@ -306,7 +306,6 @@
   width: -webkit-fit-content;
   width: -moz-fit-content;
   width: fit-content;
-  border-bottom: 2px solid #111111;
 }
 
 @media (max-width: 640px) {
@@ -4569,3 +4568,46 @@ only screen and (min-width:813px) {
 
 /* our story page  */
 .css-iex2id{padding:16px 0;width:100%;}
+
+.amatic {
+  font-family: Amatic SC;
+}
+
+/* party page  */
+
+.css-1jv9ak8 {
+  margin-bottom: 12px;
+  font-family: Libre Baskerville;
+  color: #111111;
+  font-size: 16px;
+  font-weight: normal;
+}
+
+.css-1ypgl9o {
+  margin: 48px 0 0 0;
+  text-align: center;
+  font-family: Amatic SC;
+  color: #111111;
+  font-size: 34px;
+  font-weight: 700;
+}
+
+.css-3hfvxm {
+  margin: 44px 0px 0px;
+  text-align: center;
+  font-family: "Libre Baskerville";
+  color: rgb(17, 17, 17);
+  font-size: 32px;
+  font-weight: normal;
+}
+
+.css-d2rgm4 {
+  padding: 0px;
+  margin: 1.1em auto;
+  max-width: 550px;
+  text-align: center;
+  font-family: "Libre Baskerville";
+  color: rgb(17, 17, 17);
+  font-size: 16px;
+  font-weight: normal;
+}

@@ -6,7 +6,7 @@ export default function Header() {
     <header className=''>
       
       <div className="css-fsfrbf">
-        <picture data-testid="cover-photo" className="css-1ago99h">
+        <picture className="css-1ago99h">
           <source
             media="(min-resolution: 192dpi) and (min-width: 1280px),(-webkit-min-device-pixel-ratio: 2) and (min-width: 1280px)"
             srcSet="//www.theknot.com/tk-media/images/d1cb9965-a84d-4b04-8afe-b82e19524743~rt_auto-cr_0.282.909.736-rs_2560.h?ordering=explicit" />
@@ -43,8 +43,8 @@ export default function Header() {
         </picture>
       </div>
       <header className="css-mj00yc">
-        <h1 data-testid="header-couple-names" className="css-jx617y">James &amp; Anya</h1>
-        <div data-testid="header-wedding-date-location" className="css-lxcy76">April 2, 2022 • Lancaster, PA, USA</div>
+        <h1 className="css-jx617y">James &amp; Anya</h1>
+        <div className="css-lxcy76">April 2, 2022 • Lancaster, PA, USA</div>
       </header>
       <picture className="css-as6t7l">
         <source
@@ -82,8 +82,8 @@ export default function Header() {
           className="css-1ago99h" />
       </picture>
       <header className="css-ou2xl5">
-        <h1 data-testid="header-couple-names" className="css-jx617y">James &amp; Anya</h1>
-        <div data-testid="header-wedding-date-location" className="css-lxcy76">April 2, 2022 • Lancaster, PA, USA</div>
+        <h1 className="css-jx617y">James &amp; Anya</h1>
+        <div className="css-lxcy76">April 2, 2022 • Lancaster, PA, USA</div>
       </header>
       <div className="css-1rf9dig"><button className="css-bcsx0a"><span className="css-7wwr3e"></span><span className="css-1wkn33">Menu
             Button</span></button></div>
@@ -94,7 +94,7 @@ export default function Header() {
         <div className="css-nfosgx">
           <ul className="css-kxffhl">
             <li className="css-1h34bd1"><Link className="css-12he7qw" href="/"><span
-                  className="css-5znzvm">Home</span></Link></li>
+                  className="css-11by0lh">Home</span></Link></li>
             <li className="css-1h34bd1"><Link className="css-12he7qw"
                 href="/our-story"><span className="css-11by0lh">Our Story</span></Link>
             </li>
@@ -104,7 +104,7 @@ export default function Header() {
                 href="/wedding-party"><span className="css-11by0lh">Wedding
                   Party</span></Link></li>
             <li className="css-1h34bd1"><Link className="css-12he7qw"
-                href="/travel"><span className="css-11by0lh">Location</span></Link></li>
+                href="/location"><span className="css-11by0lh">Location</span></Link></li>
             <li className="css-1h34bd1"><Link className="css-12he7qw" href="/registry"><span
                   className="css-11by0lh">Registry</span></Link></li>
             <li className="css-1h34bd1"><Link className="css-12he7qw"
@@ -114,9 +114,9 @@ export default function Header() {
       </nav>
       <nav className="css-o8h4rm">
         <div className="css-1bpqnod">
-          <ul data-testid="desktop-nav-row-1" className="css-16kcklx">
+          <ul className="css-16kcklx">
             <li className="css-haue6f"><Link className="css-1x9swe2" href="/"><span
-                  className="css-5znzvm">Home</span></Link></li>
+                  className="css-umenba">Home</span></Link></li>
             <li className="css-haue6f"><Link className="css-1x9swe2"
                 href="/our-story"><span className="css-umenba">Our Story</span></Link>
             </li>
@@ -126,9 +126,9 @@ export default function Header() {
                 href="/wedding-party"><span className="css-umenba">Wedding
                   Party</span></Link></li>
           </ul>
-          <ul data-testid="desktop-nav-row-2" className="css-16kcklx">
+          <ul className="css-16kcklx">
             <li className="css-haue6f"><Link className="css-1x9swe2"
-                href="/travel"><span className="css-umenba">Location</span></Link></li>
+                href="/location"><span className="css-umenba">Location</span></Link></li>
             <li className="css-haue6f"><Link className="css-1x9swe2" href="/registry"><span
                   className="css-umenba">Registry</span></Link></li>
             <li className="css-haue6f"><Link className="css-1x9swe2"

@@ -11,12 +11,14 @@ return (
   <Seo />
 
   <div className="css-iex2id">
-    <h4 className="HeadlineItem css-1ypgl9o" data-testid="headline-item-34855693">First, we met.</h4>
-    <h4 className="HeadlineItem css-1ypgl9o" data-testid="headline-item-34855701">Then, we got engaged.</h4>
-    <h4 className="HeadlineItem css-1ypgl9o" data-testid="headline-item-34855711">Now, we're getting married.</h4>
-    <h4 className="HeadlineItem css-1ypgl9o" data-testid="headline-item-34855719">Join us!</h4>
-    <div className="PhotoItem css-mx8zre" data-testid="photo-item-34862441">
-      <picture>
+    <div className="amatic text-center mt-12">
+      <p className="text-4xl font-normal mb-8">First, we met.</p>
+      <p className="text-4xl font-normal mb-8">Then, we got engaged.</p>
+      <p className="text-4xl font-normal mb-8">Now, we're getting married.</p>
+      <p className="text-4xl font-normal mb-8">Join us!</p>
+    </div>
+    <div className="PhotoItem css-mx8zre container mx-auto max-w-lg">
+      <picture className=''>
         <source
           media="(min-resolution: 192dpi) and (min-width: 1280px),(-webkit-min-device-pixel-ratio: 2) and (min-width: 1280px)"
           srcSet="https://media-api.xogrp.com/images/895f1d1f-1dde-46d2-8d6e-900885d4919b~rt_auto-cr_438.96.1830.1139-rs_1020.h?ordering=explicit" />

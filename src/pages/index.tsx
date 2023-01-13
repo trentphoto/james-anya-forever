@@ -16,7 +16,7 @@ export default function HomePage() {
               <div className="css-xdcd7r"></div>
               <div className="css-mf7073"></div>
               <div className="css-1s8bb19">
-                <picture data-testid="cover-photo" className="css-1ago99h">
+                <picture className="css-1ago99h">
                   <source
                     media="(min-resolution: 192dpi) and (min-width: 1280px),(-webkit-min-device-pixel-ratio: 2) and (min-width: 1280px)"
                     srcSet="//www.theknot.com/tk-media/images/d1cb9965-a84d-4b04-8afe-b82e19524743~rt_auto-cr_0.282.909.736-rs_2560.h?ordering=explicit" />
@@ -60,9 +60,9 @@ export default function HomePage() {
                   <div className="css-1jqzgsk">
                     <div className="css-1yltisf">Lancaster<br /> PA</div>
                   </div>
-                </div><a href="/rsvp" className="css-mpbys9">RSVP</a>
-                <div data-testid="event-row-0" className="css-xtb3p0">
-                  <div data-testid="event-fdf8a8f9-5f5b-4a2a-9459-e5c28be82645" className="css-1gcbltk">
+                </div><Link href="/rsvp" className="css-mpbys9">RSVP</Link>
+                <div className="css-xtb3p0">
+                  <div className="css-1gcbltk">
                     <div className="css-15r1rym">
                       <h4 className="css-1iy9kzs">Wedding Day</h4>
                       <div className="css-1kcp5eu">April 2, 2022</div>
@@ -70,7 +70,7 @@ export default function HomePage() {
                     </div>
                   </div>
                   <div className="css-ntrm32">
-                    <div data-testid="event-c4887263-1c42-49e3-a3a1-161cb54ebfa5" className="css-1lny5v">
+                    <div className="css-1lny5v">
                       <div className="css-8m99gz">
                         <h4 className="css-1l7q3lo">4:00 PM - 5:00 PM</h4>
                       </div>
@@ -83,7 +83,7 @@ export default function HomePage() {
                         </div>
                       </div>
                     </div>
-                    <div data-testid="event-f8e4ed7c-cda2-49e9-8994-31b99b16c09d" className="css-1lny5v">
+                    <div className="css-1lny5v">
                       <div className="css-8m99gz">
                         <h4 className="css-1l7q3lo">6:00 PM</h4>
                       </div>
@@ -103,20 +103,20 @@ export default function HomePage() {
                   <ul className="css-rccscy">
                     <li className="css-e34m0p"><Link className="css-12he7qw" href="/"><span
                           className="css-5znzvm">Home</span></Link></li>
-                    <li className="css-e34m0p"><a rel="nofollow" className="css-12he7qw"
-                        href="/our-story"><span className="css-11by0lh">Our Story</span></a>
+                    <li className="css-e34m0p"><Link className="css-12he7qw"
+                        href="/our-story"><span className="css-11by0lh">Our Story</span></Link>
                     </li>
-                    <li className="css-e34m0p"><a rel="nofollow" className="css-12he7qw"
-                        href="/photos"><span className="css-11by0lh">Photos</span></a></li>
-                    <li className="css-e34m0p"><a rel="nofollow" className="css-12he7qw"
+                    <li className="css-e34m0p"><Link className="css-12he7qw"
+                        href="/photos"><span className="css-11by0lh">Photos</span></Link></li>
+                    <li className="css-e34m0p"><Link className="css-12he7qw"
                         href="/wedding-party"><span className="css-11by0lh">Wedding
-                          Party</span></a></li>
-                    <li className="css-e34m0p"><a rel="nofollow" className="css-12he7qw"
-                        href="/travel"><span className="css-11by0lh">Location</span></a></li>
-                    <li className="css-e34m0p"><a className="css-12he7qw" href="/registry"><span
-                          className="css-11by0lh">Registry</span></a></li>
-                    <li className="css-e34m0p"><a rel="nofollow" className="css-12he7qw"
-                        href="/rsvp"><span className="css-11by0lh">RSVP</span></a></li>
+                          Party</span></Link></li>
+                    <li className="css-e34m0p"><Link className="css-12he7qw"
+                        href="/location"><span className="css-11by0lh">Location</span></Link></li>
+                    <li className="css-e34m0p"><Link className="css-12he7qw" href="/registry"><span
+                          className="css-11by0lh">Registry</span></Link></li>
+                    <li className="css-e34m0p"><Link className="css-12he7qw"
+                        href="/rsvp"><span className="css-11by0lh">RSVP</span></Link></li>
                   </ul>
                 </div>
               </div>
